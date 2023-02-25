@@ -3,7 +3,8 @@ package com.devsuperior.dsmovie.entities;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "tb_user", schema = "dsmovie")
+//@Table(name = "tb_user", schema = "dsmovie")
+@Table(name = "tb_user")
 public class User {
 
     @Id
