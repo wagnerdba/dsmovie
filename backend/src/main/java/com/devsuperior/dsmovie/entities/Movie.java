@@ -6,7 +6,7 @@ import java.util.Set;
 
 
 @Entity
-@Table(name = "tb_movie", schema = "dsmovie")
+@Table(name = "tb_movie") //, schema = "dsmovie")
 public class Movie {
 
     @Id
